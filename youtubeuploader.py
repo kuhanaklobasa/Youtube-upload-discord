@@ -9,7 +9,7 @@ import aiohttp
 counter = 0
 
 
-CLIENT_SECRET_FILE = '/Users/otonbenda/Desktop/coding/youtubeuploader/client_secret.json'
+CLIENT_SECRET_FILE = 'PATH TO YOUR CLIENT SECRET JSON'
 API_NAME = 'youtube'
 API_VERSION = 'v3'
 SCOPES = ['https://www.googleapis.com/auth/youtube.upload']
@@ -62,18 +62,4 @@ async def upload(ctx):
         await ctx.send("You failed to respond in time!")
     
         
-client.run("OTAxMjQzMDg2MTc1MzY3MjM5.YXNCCA.nYOU-94loQ9Gf-0mI9GqljJyznU")
-
-
-
-
-
-
-
-# mediaFile = MediaFileUpload('/Users/otonbenda/Desktop/coding/youtubeuploader/youtubevideo.mp4')
-
-
-# service.thumbnails().set(
-#     videoId=response_upload.get('id'),
-#     media_body=MediaFileUpload('/Users/otonbenda/Desktop/coding/youtubeuploader/gradient.png')
-# ).execute()
+client.run("BOT TOKEN HERE")
